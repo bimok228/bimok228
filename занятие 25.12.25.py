@@ -46,9 +46,9 @@ def move_wrap(obj, move_x, move_y):
         canvas.move(obj, WIDTH, 0)
     if xy[0] >= WIDTH:
         canvas.move(obj, -WIDTH, 0)
-    if xy[0] <= 0:
+    if xy[1] <= 0:
         canvas.move(obj, 0, HEIGHT)
-    if xy[0] <= 0:
+    if xy[1] >= HEIGHT:
         canvas.move(obj, 0, -HEIGHT)
 
 
