@@ -1,8 +1,4 @@
-"""
-сhisla = input("введите оценки:")
-сhisla = сhisla.split()
-for i in range(len(сhisla)):
+
+for i in range():
     сhisla[i] = int(сhisla[i])
 spisok = [сhisla]
-for i in
-"""
