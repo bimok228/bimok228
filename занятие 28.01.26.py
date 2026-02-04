@@ -48,3 +48,4 @@ while True:
     pygame.display.update()
     pygame.display.update()
     pygame.time.delay(6)
+pygame.draw.circle(win, (2, 3, 2), (500, 0), 25)

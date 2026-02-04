@@ -14,7 +14,7 @@ while True:
             exit()
     win.fill((255, 255, 255))
     keys = pygame.key.get_pressed()
-    if keys[pygame.k_w]:
+    if keys[pygame.k_]:
         y -= 1
     elif keys[pygame.K_s]:
         y += 1
