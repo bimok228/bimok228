@@ -37,7 +37,7 @@ BLACK = [0] * 3
 WHITE = [255] * 3
 W, H = 500, 500
 share = "kvadrat"
-size = 3
+size = 50
 pg.init()
 win = pg.display.set_mode((W, H))
 flag = 1
