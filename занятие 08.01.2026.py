@@ -43,9 +43,6 @@ while True:
     if n < 500:
         n = + 1
 
-    pygame.draw.rect(win, (255, 255, 0), (x, y, 150, 60))
-    pygame.draw.circle(win, (0, 0, 0), (40, x), 50)
-    pygame.draw.circle(win, (0, 0, 0), (40, x), 50)
-    pygame.draw.circle(win, (0, 0, 0), (n, b), 50)
+    pygame.draw.rect(win, (255, 255, 0), (x, y, 60, 60))
     pygame.display.update()
     pygame.time.delay(10)
