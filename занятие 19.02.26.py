@@ -65,4 +65,4 @@ while True:
     if size <= 15:
         flag = 1
     pg.display.update()
-    pg.time.delay(10)
+    pg.time.delay(1)
