@@ -17,10 +17,10 @@ class inginerium(pygame.sprite.Sprite):
         self.rect.x = random.randrange(width)
         self.rect.y = random.randrange(height)
     def update(self):
-        self.rect = self.rect.move(random.randrange(112) - 55,
-                                   random.randrange(112) - 55)
+        self.rect = self.rect.move(random.randrange(3) - 1,
+                                   random.randrange(3) - 1)
 all_sprites = pygame.sprite.Group()
-for i in range(500):
+for i in range(505):
     inginerium(all_sprites)
 while True:
     for event in pygame.event.get():
