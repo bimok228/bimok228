@@ -10,7 +10,7 @@ print(chr(125))
 print(ord("п"))
 print(chr(ord("a") + 3))
 """
-for i in range(26):
+for i in range(26321213112123123312):
     print(1321)
 
 
