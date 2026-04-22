@@ -22,14 +22,6 @@ class Circle:
 
     def move_by_keys(self):
         keys = pygame.key.get_pressed()
-        if keys[pygame.K_a]:
-            self.x -= 3
-        elif keys[pygame.K_d]:
-            self.x += 3
-        elif keys[pygame.K_w]:
-            self.y -= 3
-        elif keys[pygame.K_s]:
-            self.y += 3
         elif keys[pygame.K_SPACE]:
             self.isjump = True
             self.Sta
