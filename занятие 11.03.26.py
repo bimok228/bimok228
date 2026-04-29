@@ -73,9 +73,6 @@ while True:
         hits[0].rect.left = new_left
         hits[0].rect.top = new_top
         score += 1
-        print("очков " + str(score))
-        if score == 10:
-            a, b, d, c =+ 2(int)
     all_sprites.draw(win)
     Enemy_sprites.draw(win)
     all_sprites.update()
